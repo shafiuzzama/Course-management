@@ -1,0 +1,140 @@
+.submit-outersection {
+  width: 604px;
+  height: 509px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #999999;
+}
+.sumbit-text {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #212121;
+  opacity: 1;
+  text-align: center;
+  padding: 10px;
+}
+.submit-doc-section {
+  padding: 0 50px;
+  margin-bottom: 50px;
+}
+.img-after-uplode {
+  background: #fff;
+  box-shadow: 0px 2px 6px #00000014;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  margin-top: 10px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cancle-icons {
+  height: 24px;
+  width: 24px;
+  margin: 0 15px;
+}
+.submit-innersection {
+  border: 1px dashed #1d366f;
+
+  /* width: 520px; */
+  height: 214px;
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.assignment-icon {
+  width: 47px;
+  height: 47px;
+}
+.No-file-uploaded {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #999999;
+}
+.submit-inner-border {
+  border: 1px solid #d8d8d8;
+  opacity: 0.5;
+  margin-top: 40px;
+}
+.submit-btn1 {
+  width: 250px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.submit-btn2 {
+  width: 250px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #1d366f;
+  /* opacity: 0.5; */
+  color: white;
+  border-radius: 5px;
+}
+.submit-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+  border-top: 2px solid #d8d8d8;
+}
+.img-folder {
+  max-width: 300px;
+  max-height: 100px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .submit-outersection {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    border: none;
+    padding: 20px;
+  }
+
+  .submit-doc-section {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .sumbit-text {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .img-after-uplode {
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .cancle-icons {
+    margin: 10px 0;
+  }
+
+  .submit-innersection {
+    height: auto;
+    margin-top: 20px;
+    border: none;
+  }
+
+  .No-file-uploaded {
+    margin-top: 20px;
+  }
+
+  .submit-btn1,
+  .submit-btn2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

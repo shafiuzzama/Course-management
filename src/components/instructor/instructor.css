@@ -1,0 +1,124 @@
+#outersection-inst {
+  background-color: #fff;
+  margin-top: 80px;
+}
+.custom-button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #1d366f;
+  color: #fff;
+  margin-top: 10px;
+}
+.already-acc {
+  text-align: center;
+  margin-top: 10px;
+}
+.heading {
+  font-size: 20px;
+}
+.instructor-registering-main {
+  margin-top: 80px;
+}
+.input-error{
+  height: 90px;
+}
+.nameError{
+  color: rgba(255, 0, 0, 0.625);
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.emailError{
+  color: rgba(255, 0, 0, 0.625);
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.passwordError{
+  color: rgba(255, 0, 0, 0.625);
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+/* Adjustments for mobile screens */
+@media screen and (max-width: 767px) {
+  .instructor-registering-main {
+    margin-top: 40px; /* Adjust top margin */
+  }
+
+  .input-error {
+    height: auto; /* Allow height to adjust based on content */
+    margin-bottom: 20px; /* Add some space between inputs */
+  }
+
+  .nameError,
+  .emailError,
+  .passwordError {
+    font-size: 12px; /* Decrease font size for error messages */
+    margin-top: 5px; /* Reduce top margin for error messages */
+  }
+
+  .custom-button {
+    margin-top: 20px; /* Adjust top margin for the button */
+  }
+
+  .login-link {
+    text-align: center; /* Center align the login link */
+    margin-top: 20px; /* Add some space at the top */
+    margin-bottom: 40px; /* Add some space at the bottom */
+  }
+
+  .password-input {
+    position: relative; /* Position the container relatively */
+    margin-bottom: 20px; /* Add some space between input and icon */
+  }
+
+  .input-password {
+    width: 100%; /* Set width to 100% */
+    padding-right: 40px; /* Add padding for the icon */
+  }
+
+  .img-section {
+    position: absolute; /* Position the icon absolutely */
+    top: 50%; /* Align vertically */
+    right: 10px; /* Align to the right */
+    transform: translateY(-50%); /* Center vertically */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+
+  #outersection-inst {
+    background-color: #fff; /* Ensure background color is white */
+    margin-top: 40px; /* Adjust top margin */
+  }
+
+  .container-box {
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+
+  .heading {
+    font-size: 18px; /* Decrease font size for headings */
+  }
+
+  .Register-Now {
+    font-size: 16px; /* Decrease font size for subheadings */
+  }
+
+  .btn-preview,
+  .btn-edit,
+  .btn-manu {
+    font-size: 12px; /* Decrease font size for buttons */
+    padding: 5px 10px; /* Adjust padding */
+  }
+
+  .table-input {
+    width: 100%; /* Set width to 100% for search input */
+    max-width: 280px; /* Limit max-width */
+  }
+
+  .table-search-icon {
+    left: 10px; /* Adjust left position */
+  }
+}
+

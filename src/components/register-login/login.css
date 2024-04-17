@@ -1,0 +1,62 @@
+.container-login {
+  width: 450px !important;
+  height: 400px !important;
+  background-color: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  padding: 30px !important;
+  margin-bottom: 15px;
+  /* box-sizing: border-box; */
+}
+.login-input{
+  height: 90px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .container-login {
+    width: 100%; 
+    height: auto; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 0; 
+    border: none; 
+  }
+
+  .heading {
+    font-size: 28px; 
+  }
+
+  .Register-Now {
+    font-size: 18px; 
+  }
+
+  .custom-button {
+    height: 35px; 
+    font-size: 16px;
+  }
+
+  .paragraph {
+    font-size: 14px; 
+  }
+
+  .login-link {
+    font-size: 14px; 
+  }
+
+  .login-input {
+    height: auto;
+    margin-bottom: 10px; 
+  }
+
+  .img-section {
+    top: 50%; 
+    transform: translateY(-50%) translateX(50%); 
+  }
+
+  .emailError,
+  .passwordError {
+    font-size: 12px; 
+    margin-top: -15px; 
+  }
+}

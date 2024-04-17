@@ -1,0 +1,23 @@
+#instractor-my-course {
+  margin-top: 110px;
+  padding: 0 100px;
+}
+.icon-sed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+.btn-my-cources {
+  width: 304px;
+  height: 40px;
+  background: #1d366f;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: Open Sans;
+}

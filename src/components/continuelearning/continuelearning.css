@@ -1,0 +1,176 @@
+.ContinueLearning-outersection {
+  height: 642px;
+  margin-top: 80px;
+}
+.ContinueLearning-headig {
+  display: flex;
+  padding: 0 50px;
+  margin-left: 20px;
+}
+
+.ContinueLearning-chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb302;
+  border-radius: 13px;
+  opacity: 0.7;
+  color: #000;
+  height: 26px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.ContinueLearning-topics {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 70px;
+  height: 56px;
+  background: #f8f8f8;
+  color: #000;
+}
+.Lorem-ipsum p {
+  margin: 0;
+}
+.Lorem-ipsum {
+  width: 1166px;
+  margin: auto;
+}
+.grade {
+  width: 1166px;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.ContinueLearning-heading {
+  width: 1166px;
+
+  margin: auto;
+}
+.ContinueLearning-heading h1 {
+  font-family: Open Sans;
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #252d41;
+}
+.ContinueLearning-heading {
+  display: flex;
+}
+.ContinueLearning-heading button {
+  margin-left: auto;
+}
+.ContinueLearning-heading > button {
+  background-color: #1d366f;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  opacity: 1;
+  height: 40px;
+  color: white;
+  width: 172px;
+}
+
+.ContinueLearning-paragrhaph {
+  width: 1166px;
+  height: 410px;
+
+  margin: auto;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.ContinueLearning-paragrhaph::-webkit-scrollbar {
+  width: 1px;
+}
+
+.ContinueLearning-paragrhaph::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.ContinueLearning-paragrhaph::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border-radius: 6px;
+}
+.ContinueLearning-paragrhaph {
+  padding: 10px;
+}
+.ContinueLearning-paragrhaph h3 {
+  font: normal normal 600 16px/30px Open Sans;
+  letter-spacing: 0px;
+  color: #252d41;
+}
+.ContinueLearning-paragrhaph p {
+  font-family: Open Sans;
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: #252d41;
+}
+.button-Nav {
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px #0000000f;
+}
+
+@media screen and (max-width: 767px) {
+  .ContinueLearning-outersection {
+    margin-top: 20px;
+    padding: 0 10px;
+    height: auto;
+  }
+
+  .ContinueLearning-headig {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .ContinueLearning-topics {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .ContinueLearning-chip {
+    justify-content: flex-start;
+    width: fit-content;
+  }
+
+  .Lorem-ipsum {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .ContinueLearning-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .ContinueLearning-heading h1 {
+    font-size: 24px;
+  }
+
+  .ContinueLearning-heading button {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .ContinueLearning-paragrhaph {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  .ContinueLearning-paragrhaph h3 {
+    font-size: 18px;
+  }
+
+  .ContinueLearning-paragrhaph p {
+    font-size: 16px;
+  }
+
+  .button-Nav {
+    width: 100%;
+  }
+}

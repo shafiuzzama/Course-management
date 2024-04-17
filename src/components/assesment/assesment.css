@@ -1,0 +1,134 @@
+.assesment-outersection {
+  border: 1px solid #dcdcdc;
+  height: 550px;
+  width: 700px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.assesment-innersection {
+  padding: 20px;
+}
+.assentment-icon {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 10px;
+}
+.assesment-inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.assentment-text {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #252d41;
+}
+.assesment-title {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #666666;
+  text-transform: capitalize;
+  margin: 5px 0;
+}
+.assesment-time {
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #666666;
+  margin: 5px 0;
+}
+.text-desc {
+  font-size: 14px;
+  font-family: "open sans";
+  font-weight: 600px;
+  color: #666;
+}
+.assesment-inputBox input[type="text"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+
+.assesment-inputBox input[type="text"]:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.btn-sectons {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  border-top: 1px solid #707070;
+
+  padding-top: 20px;
+}
+.btn-cancel {
+  padding: 5px 15px;
+  border: 1px solid #999;
+  outline: none;
+  background: #fff;
+  border-radius: 5px;
+}
+.btn-submit {
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background: #1d366f;
+  border-radius: 5px;
+}
+.text-area-field {
+  height: 270px;
+  /* margin-top: 20px; */
+}
+
+
+@media screen and (max-width: 600px) {
+  .assesment-outersection {
+    width: 90%; 
+    height: auto; 
+    margin: 20px auto; 
+    padding: 10px; 
+  }
+
+  .assesment-innersection {
+    padding: 15px; 
+  }
+
+  .assesment-text {
+    font-size: 14px; 
+  }
+
+  .assesment-title,
+  .assesment-time,
+  .text-desc {
+    font-size: 12px; 
+  }
+
+  .assesment-inputBox input[type="text"] {
+    width: calc(100% - 14px); 
+    margin-bottom: 10px; 
+  }
+
+  .text-area-field {
+    height: 150px; 
+    margin-top: 10px; 
+  }
+
+  .btn-sectons {
+    flex-direction: column; 
+    align-items: flex-end; 
+    gap: 10px; 
+    padding-top: 10px; 
+  }
+
+  .btn-cancel,
+  .btn-submit {
+    width: 100%; 
+    padding: 8px 0; 
+  }
+}

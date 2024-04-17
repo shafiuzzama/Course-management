@@ -1,0 +1,165 @@
+.outersection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  /* margin-top: 80px; */
+}
+#login-main-section {
+  margin-top: 80px;
+}
+#register-main-section {
+  margin-top: 80px;
+}
+.container-box {
+  width: 450px !important;
+  height: 470px !important;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 30px !important;
+  /* margin-bottom: 15px; */
+  margin-top: 70px;
+  /* box-sizing: border-box; */
+}
+.heading {
+  color: #1d366f;
+  /* font: normal normal bold 32px/43px Open Sans; */
+  font-family: Open Sans;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 5px;
+}
+.Register-Now {
+  font-family: Open Sans;
+  font-size: 20px;
+  text-align: center;
+  color: #666666;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.custom-button {
+  width: 100%;
+  height: 40px;
+}
+
+.paragraph > span {
+  color: #243386;
+  /* font: normal normal 600 14px/19px Open Sans; */
+  font-family: Open Sans;
+  font-size: 15px;
+  letter-spacing: 0px;
+}
+.paragraph {
+  color: #262626;
+  /* font: normal normal normal 14px/19px Open Sans; */
+  font-family: Open Sans;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.login-link {
+  /* margin-top: 26px; */
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+.login-link:hover > span {
+  text-decoration: underline;
+  color: #868585;
+}
+.password-input {
+  position: relative;
+}
+.img-section {
+  position: absolute;
+  top: 70%;
+  left: 90%;
+  transform: translateY(-50%);
+}
+
+.nameEroor {
+  color: rgba(255, 0, 0, 0.625);
+  margin: 0;
+  font-family: Open Sans;
+  font-size: 14px;
+  /* line-height: 0px; */
+  margin-top: -15px;
+}
+.emailError {
+  /* margin: 0; */
+  color: rgba(255, 0, 0, 0.625);
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.passwordError {
+  margin: 0;
+  color: rgba(255, 0, 0, 0.625);
+  font-family: Open Sans;
+  font-size: 14px;
+  margin-top: -15px;
+}
+.inner-input {
+  height: 90px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.error-message {
+  color: red;
+}
+
+@media screen and (max-width: 767px) {
+  .container-box {
+    width: 100%; 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 0; 
+    border: none; 
+  }
+
+  .heading {
+    font-size: 28px; 
+  }
+
+  .Register-Now {
+    font-size: 18px; 
+  }
+
+  .custom-button {
+    height: 35px; 
+    font-size: 16px; 
+  }
+
+  .paragraph {
+    font-size: 14px; 
+  }
+
+  .login-link {
+    font-size: 14px; 
+  }
+
+  .nameEroor,
+  .emailError,
+  .passwordError {
+    font-size: 12px; 
+  }
+
+  .inner-input {
+    height: auto;
+  }
+
+  .img-section {
+    top: 50%; 
+    transform: translateY(-50%) translateX(50%); 
+  }
+}

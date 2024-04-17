@@ -1,0 +1,93 @@
+.navbar-sections {
+  background: #ffffff;
+  box-shadow: 0px 2px 10px #0000000d;
+  position: fixed;
+  width: 100%;
+  list-style: none;
+  z-index: 10;
+  top: 0;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  list-style: none;
+  display: none;
+}
+
+.liest-section {
+  display: flex;
+  align-items: center;
+  /* padding: 0 20px; */
+}
+.liest-section li {
+  padding: 15px;
+  font-size: large;
+}
+.btn-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.trach-text {
+  text-decoration: none;
+  color: #1d366f;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+.tab-liest {
+  text-transform: capitalize !important;
+}
+.btn-login {
+  padding: 0 30px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #1d366f;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.btn-register {
+  height: 40px;
+  width: 127px;
+  background: #1d366f;
+  font-size: 15px;
+  color: #fff;
+  border: 1px solid #1d366f;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-sections {
+    padding: 0 20px; 
+  }
+
+  .liest-section {
+    display: none; 
+  }
+
+  li {
+    display: inline; 
+    margin-right: 10px; 
+  }
+
+  .btn-section {
+    display: none; 
+  }
+
+  .navbar-sections img {
+    height: 30px; 
+    width: auto; 
+  }
+
+  .trach-text {
+    font-size: 14px; 
+  }
+
+  .btn-login,
+  .btn-register {
+    padding: 0 20px; 
+    font-size: 14px; 
+  }
+}

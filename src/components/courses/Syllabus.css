@@ -1,0 +1,39 @@
+.syllabusContainer1 {
+  list-style-type: none;
+  gap: 10px;
+  display: flex;
+  font-size: 14px;
+  color: #999999;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Open Sans";
+  /* margin-top: 60px; */
+}
+
+.syllabusContainer1 li {
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans";
+}
+
+.syllabusContainer1 img {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .syllabusContainer1 {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .syllabusContainer1 li {
+    justify-content: center;
+  }
+
+  .syllabusContainer1 img {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}

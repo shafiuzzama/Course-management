@@ -1,0 +1,150 @@
+.view-section {
+  width: 966px;
+  height: 422px;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.view-aquestion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.asked-by-rahul {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  align-items: center;
+  border-top: 1px solid #707070;
+}
+
+.asked-by-rahul p {
+  margin: 0;
+}
+
+.asked-by-rahul img {
+  width: 20px;
+  height: 20px;
+}
+
+.view-text > p {
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: #212121;
+  padding: 12px;
+}
+
+.View-topic {
+  left: 20px;
+  background-color: #999999;
+  padding: 5px;
+  border-radius: 13px;
+  font-size: 14px;
+  font-family: Open Sans;
+  opacity: 0.5;
+  width: 120px;
+  text-align: center;
+}
+
+.View-topic p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+.view-border-bottom {
+  border: 1px solid #707070;
+  opacity: 0.1;
+  margin-top: 90px;
+}
+.view-inner-border {
+  background-color: #fbfbfb;
+}
+.view-border-bottoms {
+  border: 1px solid #707070;
+  opacity: 0.1;
+  margin-top: 40px;
+}
+.answered-section {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.para-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  background: #fbfbfb;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  margin-top: 40px;
+}
+.view-btn {
+  width: 90px;
+  height: 40px;
+  background-color: #1d366f;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+.btn-cont {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .view-section {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    border: none;
+    margin: 50px auto;
+    padding: 10px;
+  }
+
+  .view-text > p {
+    font-size: 14px;
+  }
+
+  .asked-by-rahul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .asked-by-rahul img {
+    display: block;
+    margin-right: 0;
+  }
+
+  .View-topic {
+    width: auto;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .para-section {
+    height: auto;
+    padding: 15px 10px;
+    margin-top: 20px;
+  }
+
+  .view-btn {
+    width: 100px;
+  }
+
+  .btn-cont {
+    justify-content: center;
+  }
+}

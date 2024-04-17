@@ -1,0 +1,36 @@
+.dashboard-Card {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.main-card {
+  margin-top: 80px;
+  width: 83%;
+  background-color: #fff;
+}
+.nav-sec {
+  border-bottom: 1px solid #eeeeee;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px 0px #00000012;
+}
+#main-dasbord-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .dashboard-Card {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .main-card {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .nav-sec {
+    padding: 10px 0;
+  }
+}
+

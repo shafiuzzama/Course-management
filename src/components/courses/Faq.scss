@@ -1,0 +1,19 @@
+.accordionFaq {
+  max-width: 1150px;
+  margin: auto;
+  font-family: "Open Sans";
+  background: #fff;
+  .accordion-inner-section {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accordionFaq {
+    padding: 0 20px; 
+  }
+
+  .accordion-inner-section {
+    padding: 10px; 
+  }
+}

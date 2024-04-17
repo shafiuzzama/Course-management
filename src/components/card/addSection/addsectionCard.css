@@ -1,0 +1,60 @@
+.add-card-sec {
+  height: 158px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px #00000049;
+  border-radius: 4px;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.img-card {
+  width: 126px;
+  height: 126px;
+  border-radius: 15px;
+  padding: 10px;
+}
+.card-inner-sec {
+  display: flex;
+}
+.card-dtl {
+  width: 100%;
+  padding: 0 20px;
+}
+.stduent-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.heding-text {
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #101c36;
+  font-weight: 600;
+}
+.footer-day {
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #999999;
+}
+.icons-sec {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #262626;
+}
+.add-heder-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-progress {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.main-content-section {
+  margin-top: 80px;
+}

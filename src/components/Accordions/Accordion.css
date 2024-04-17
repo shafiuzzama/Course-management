@@ -1,0 +1,49 @@
+.accordionSideTypo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.accordionSideTypo-ul {
+  display: flex;
+  list-style-type: none;
+  float: right;
+  padding: 0;
+}
+.accordionSideTypo-li {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.accordionSideTypo-li img {
+  margin-right: 5px;
+}
+
+/* Media query for mobile */
+@media screen and (max-width: 600px) {
+  .accordionSideTypo {
+    justify-content: space-between;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-top: 10px; 
+  }
+  .accordionSideTypo-ul {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    padding: 0;
+    margin-top: 5px; 
+  }
+  .accordionSideTypo-li {
+    margin: 5px 0; 
+    font-size: 12px; 
+  }
+  .MuiAccordionSummary-content {
+    flex-grow: 1; 
+  }
+  .MuiAccordionDetails-root {
+    padding: 10px; 
+  }
+}

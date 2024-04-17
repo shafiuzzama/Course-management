@@ -1,0 +1,186 @@
+.overviewClass {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px #21212151;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  font-family: "Open Sans";
+}
+
+.subtitleClass {
+  font-size: 18px;
+  color: #252d41;
+  font-family: "Open Sans";
+}
+.headingOverview {
+  margin-top: 20px;
+}
+
+.paraOverview {
+  margin-top: 23px;
+  color: #252d41;
+  font-size: 14px;
+  font-family: "Open Sans";
+  margin-right: 40px;
+  margin-bottom: 23px;
+}
+
+.container {
+  height: 42px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #666666;
+  display: flex;
+  margin-bottom: 40px;
+}
+.heding-dis {
+  margin-bottom: 20px;
+}
+.box {
+  flex: 1;
+}
+
+.box:not(:first-child) {
+  margin-left: 5px;
+}
+
+.box:not(:last-child) {
+  margin-right: 5px;
+}
+
+.SkillClass {
+  width: 47;
+  height: 24;
+  color: #252d41;
+  font-family: "Open Sans bold";
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.descriptionClass {
+  width: 104px;
+  height: 24px;
+  margin-top: 30px;
+  color: #252d41;
+  font-family: "Open Sans";
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.disc-section1 {
+  margin: 10px 0;
+  font-family: "Open Sans";
+  margin-right: 71px;
+}
+
+.disc-section2 {
+  font-family: "Open Sans";
+  margin-right: 71px;
+  color: #252d41;
+}
+
+.discBothSec {
+  color: #252d41;
+  margin-bottom: 23px;
+  font-size: 14px;
+}
+
+.requirementClass {
+  width: 118px;
+  height: 24px;
+  color: #252d41;
+  font-size: 18px;
+  font-family: "Open Sans";
+  margin-bottom: 14px;
+}
+
+.discSecContent {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #252d41;
+  margin-bottom: 23px;
+}
+
+.atTheEnd {
+  color: #252d41;
+  height: 24px;
+  font-size: 18px;
+  font-family: "Open Sans";
+}
+
+.atTheEnd1 {
+  font-size: 14px;
+  color: #252d41;
+  font-family: "Open Sans";
+}
+
+.instructorClass {
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: "Open sans";
+  color: #252d41;
+  margin-bottom: 29px;
+}
+
+.masterName {
+  font-size: 14px;
+  font-family: "Open sans";
+  margin-bottom: 14px;
+  color: #212121;
+}
+
+.instructorClass2 {
+  color: #212121;
+  font-size: 14px;
+  font-family: "Open Sans";
+  margin-bottom: 49px;
+}
+
+.instructorClass2para1 {
+  margin-right: 159px;
+  margin-bottom: 15px;
+  font-family: "Open Sans";
+}
+.instructorClass2para1 {
+  margin-right: 159px;
+  font-family: "Open Sans";
+}
+
+@media screen and (max-width: 767px) {
+  .overviewClass {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .box {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .SkillClass,
+  .descriptionClass,
+  .requirementClass,
+  .atTheEnd,
+  .instructorClass {
+    font-size: 16px;
+  }
+
+  .disc-section1,
+  .disc-section2 {
+    margin-right: 0;
+  }
+
+  .instructorClass2para1 {
+    margin-right: 0;
+  }
+}

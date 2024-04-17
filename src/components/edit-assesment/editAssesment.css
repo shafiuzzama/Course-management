@@ -1,0 +1,7 @@
+#main-edit-section {
+  margin-top: 70px;
+}
+.edit-heding-section {
+  display: flex;
+  justify-content: space-between;
+}

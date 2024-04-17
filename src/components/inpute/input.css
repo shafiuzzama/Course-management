@@ -1,0 +1,9 @@
+#input-lable {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+}
+::placeholder {
+  font-size: 13px;
+  color: #b3b1b174;
+}

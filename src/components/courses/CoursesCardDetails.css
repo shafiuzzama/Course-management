@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#course-details {
+  padding: 0 100px;
+}
+.breadCrumb {
+  display: block;
+}
+.headingClass {
+  color: #252d41;
+  font-size: 24px;
+  font-family: "Open Sans";
+}
+.course-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d366f;
+}
+.primaryDiv1 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 100px; */
+}
+.list-item {
+  list-style: none;
+  display: flex;
+  gap: 27px;
+  color: #999999;
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+.btnClassCourse {
+  margin-bottom: 40px;
+}
+.btn-enroll {
+  background: #1d366f;
+  border-radius: 5px;
+  font-size: 13px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-family: "Open Sans";
+  padding: 10px 20px;
+}
+.subtitleClass {
+  font-size: 21px;
+  color: #252d41;
+  width: 158px;
+  height: 24px;
+  margin-bottom: 15px;
+}
+
+.paraClass {
+  font-size: 19px;
+  font-family: "open Sans";
+  letter-spacing: 0px;
+  color: #252d41;
+  opacity: 1;
+}
+
+.tabNav {
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px #0000000f;
+}
+
+.heding-dis {
+  padding: 20px;
+  box-shadow: 0px 2px 4px #21212197;
+  color: #212121;
+  border-radius: 5px;
+}
+
+.instructorName {
+  margin-top: 20px;
+  color: #212121;
+}
+
+.breadCrumbsClass {
+  margin-bottom: 20px;
+}
+
+.paraCourse {
+  font-size: 14px;
+  font-family: "Open Sans";
+}
+
+.paraCourse1 {
+  color: #252d41;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.headingClassmain {
+  margin-bottom: 16px;
+}
+
+.paraCourse {
+  width: 499px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+.btn-inprogress {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.btn-completed {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 15px;
+}
+.date-progess {
+  font-size: 12px;
+  line-height: 17px;
+  color: #262626;
+}
+.btn-outer-section {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 264px;
+  height: 40px;
+}
+.divider-sec {
+  color: #000000 !important;
+  border-width: 2px !important;
+  height: 30px !important;
+  margin: 0 10px !important;
+  font-family: "open sans";
+}
+.completed-text {
+  color: #f89206;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "open sans";
+}
+.in-progress-text {
+  text-align: center;
+  font-size: 15px;
+  font-family: "open sans";
+  color: #262626;
+}
+
+@media screen and (max-width: 767px) {
+  #course-details {
+    padding: 0 20px; 
+  }
+
+  .primaryDiv1 {
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 20px; 
+  }
+
+  .primaryDiv2 {
+    margin-top: 20px; 
+  }
+
+  .list-item {
+    flex-wrap: wrap; 
+    gap: 10px; 
+  }
+
+  .btn-enroll {
+    width: 100%; 
+    margin-top: 20px; 
+  }
+
+  .btn-inprogress {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+  }
+
+  .btn-outer-section {
+    width: 100%; 
+  }
+
+  .divider-sec {
+    display: none; 
+  }
+
+  .btn-completed {
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 10px; 
+  }
+
+  .date-progess {
+    text-align: center; 
+  }
+}

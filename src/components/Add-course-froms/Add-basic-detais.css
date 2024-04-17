@@ -1,0 +1,182 @@
+#basic-details {
+  background-color: #fcfcfc;
+  padding: 0 255px;
+  margin: 10px 0;
+}
+#basic-details p {
+  margin: 10px 0;
+}
+.top-navsec {
+  margin-top: 80px;
+}
+.course-nav-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px;
+  z-index: 10;
+}
+.input-sec {
+  display: flex;
+  flex-direction: column;
+}
+.heding-add-course {
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  color: #262626;
+}
+.input-inlin {
+  display: flex;
+  justify-content: space-between;
+}
+.course-category {
+  display: flex;
+  flex-direction: column;
+}
+.img-inside {
+  height: 107px;
+  background: #fafafa;
+  border: 1px dashed #d8d8d8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-areas {
+  width: 100%;
+  height: 107px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+}
+.input-title {
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  outline: none;
+  padding: 7px;
+  margin: 7px 0;
+}
+.input-category {
+  background: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  outline: none;
+  padding: 7px;
+  width: 306px;
+  margin: 7px 0;
+}
+.desc-icons {
+  display: flex;
+  padding: 10px;
+}
+.text-area {
+  width: 100%;
+  height: 380px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+}
+.text-area-about {
+  width: 100%;
+  height: 114px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+.icons {
+  margin: 0 5px;
+}
+.syllabus-heding {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 100px; */
+  padding: 15px 0;
+}
+.syllabus-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  outline: none;
+}
+.syllabus-main {
+  padding: 0 150px;
+}
+.about-section {
+  margin-top: 50px;
+}
+.text-heding {
+  font-size: 16px;
+  font-family: "Open Sans";
+  letter-spacing: 0px;
+  color: #999999;
+}
+.syllabus-input-main {
+  display: flex;
+  align-items: center;
+}
+
+.add-Syllabus-btn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background: #1d366f;
+  color: #fff;
+  border-radius: 5px;
+}
+.add-assessment {
+  font-weight: 600;
+  font-size: 14px;
+  color: #1d366f;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  #basic-details {
+    padding: 0 20px; 
+    margin: 10px 0; 
+  }
+
+  .input-sec {
+    padding: 20px 0; 
+  }
+
+  .heding-add-course {
+    font-size: 18px; 
+    line-height: 24px; 
+  }
+
+  .input-inlin {
+    flex-direction: column; 
+  }
+
+  .input-title,
+  .input-category {
+    width: calc(100% - 14px);
+  }
+
+  .img-inside {
+    height: 90px; 
+  }
+
+  .text-areas,
+  .text-area-about {
+    height: 90px; 
+  }
+
+  .icons {
+    margin: 0; 
+  }
+}
